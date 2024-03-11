@@ -1,0 +1,21 @@
+{
+  "name": "pageobjectmodel-wdio",
+  "version": "1.0.0",
+  "description": "UI Testing Scenario for kasirAja with Page Object Model using WebDriver.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx run ./wdio.conf.js",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "author": "RifalF",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "@babel/register": "^7.23.7",
+    "@wdio/browser-runner": "^8.33.1",
+    "@wdio/cli": "^8.33.1",
+    "@wdio/mocha-framework": "^8.33.1",
+    "@wdio/spec-reporter": "^8.32.4"
+  }
+}
